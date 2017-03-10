@@ -1,0 +1,35 @@
+.header{
+    height: 40px;
+    width:100%;
+    position: fixed;
+    top:0;
+    left:0;
+    background-color: #cccccc;
+
+}
+.footer{
+    height: 40px;
+    width:100%;
+    position: fixed;
+    bottom:0;
+    left:0;
+    background-color: #cccccc;
+}
+#aside{
+    position: absolute;
+    margin:0;
+    left: 0;
+    top:40px;
+    bottom:40px;
+    width:100px;
+    background-color: antiquewhite;
+}
+#content{
+    position: absolute;
+    margin:0;
+    left:100px;
+    top:40px;
+    bottom:40px;
+    background-color:salmon;
+    overflow: auto;
+}
